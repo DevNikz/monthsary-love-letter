@@ -2,10 +2,11 @@
 import { useEffect, useState } from "react";
 import { ArrowDown, ArrowUpRight, Heart, MapPin, Moon, Music2, Sparkles } from "lucide-react";
 
-const heroImage = "/manus-storage/paper-moon-hero_421bef5a.jpg";
-const nightImage = "/manus-storage/paper-moon-night_a3c68bb0.jpg";
-const memoryImage = "/manus-storage/paper-moon-memory_0d6c41fc.jpg";
-const markImage = "/manus-storage/paper-moon-mark_fe0eb4c6.png";
+const asset = (name: string) => `${import.meta.env.BASE_URL}assets/${name}`;
+const heroImage = asset("paper-moon-hero.jpg");
+const nightImage = asset("paper-moon-night.jpg");
+const memoryImage = asset("paper-moon-memory.jpg");
+const markImage = asset("paper-moon-mark.png");
 const spotifyEmbedUrl = "https://open.spotify.com/embed/track/3URe1bi21ftFK4zh5nO1P1?utm_source=generator&theme=0";
 
 export default function Home() {
