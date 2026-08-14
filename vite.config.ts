@@ -8,7 +8,7 @@ import { vitePluginManusRuntime } from "vite-plugin-manus-runtime";
 
 // =============================================================================
 // Manus Debug Collector - Vite Plugin
-// Writes browser logs directly to files, trimmed when exceeding size limit
+// Writes browser logs directly to files, trimmed when exceeding size limit test.
 // =============================================================================
 
 const PROJECT_ROOT = import.meta.dirname;
